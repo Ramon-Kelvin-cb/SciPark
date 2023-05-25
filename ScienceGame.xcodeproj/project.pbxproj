@@ -11,6 +11,39 @@
 		9B1035B129F9929000649FA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035B029F9929000649FA7 /* ContentView.swift */; };
 		9B1035B329F9929100649FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1035B229F9929100649FA7 /* Assets.xcassets */; };
 		9B1035B629F9929100649FA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1035B529F9929100649FA7 /* Preview Assets.xcassets */; };
+		9B1035BE29F996FF00649FA7 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035BD29F996FF00649FA7 /* StartScene.swift */; };
+		9B1035C129F999B400649FA7 /* SKButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035C029F999B400649FA7 /* SKButtonNode.swift */; };
+		9B1035C329F99C6800649FA7 /* TransitionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035C229F99C6800649FA7 /* TransitionScene.swift */; };
+		9B1035C829FAEC2600649FA7 /* LooseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035C729FAEC2600649FA7 /* LooseScene.swift */; };
+		9B1035CD2A01893000649FA7 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035CC2A01893000649FA7 /* CGPointExtension.swift */; };
+		9B1035D32A02D23100649FA7 /* ElectronsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035D22A02D23100649FA7 /* ElectronsScene.swift */; };
+		9B1035D52A02D26C00649FA7 /* ProtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035D42A02D26C00649FA7 /* ProtonNode.swift */; };
+		9B1035D72A02D51500649FA7 /* ElectronNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035D62A02D51500649FA7 /* ElectronNode.swift */; };
+		9B1035DA2A02DB8500649FA7 /* PhysicsMasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035D92A02DB8500649FA7 /* PhysicsMasks.swift */; };
+		9B1035DD2A04280500649FA7 /* MacrophageScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035DC2A04280500649FA7 /* MacrophageScene.swift */; };
+		9B1035DF2A04281100649FA7 /* BodiesNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035DE2A04281100649FA7 /* BodiesNode.swift */; };
+		9B1035E12A042F9C00649FA7 /* MacrophageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035E02A042F9C00649FA7 /* MacrophageNode.swift */; };
+		9B1035E32A044CD200649FA7 /* MinigameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035E22A044CD200649FA7 /* MinigameProtocol.swift */; };
+		9B1035E62A0579D600649FA7 /* InertiaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035E52A0579D600649FA7 /* InertiaScene.swift */; };
+		9B1035E82A05845200649FA7 /* FallingBodyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035E72A05845200649FA7 /* FallingBodyNode.swift */; };
+		9B1035EA2A058A2B00649FA7 /* FloorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035E92A058A2B00649FA7 /* FloorNode.swift */; };
+		9B1035ED2A074DE500649FA7 /* EquilibriumScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035EC2A074DE500649FA7 /* EquilibriumScene.swift */; };
+		9B1035F02A0971C200649FA7 /* ShakeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035EF2A0971C200649FA7 /* ShakeScene.swift */; };
+		9B1035F42A0A25AB00649FA7 /* ShakeAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035F32A0A25AB00649FA7 /* ShakeAnimationExtension.swift */; };
+		9B1035F62A0C6F6000649FA7 /* PatrickHandSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B1035F52A0C6F4E00649FA7 /* PatrickHandSC-Regular.ttf */; };
+		9B1035FA2A0D449C00649FA7 /* HeartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035F92A0D449C00649FA7 /* HeartCell.swift */; };
+		9B1035FC2A0D5B1100649FA7 /* HeartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035FB2A0D5B1100649FA7 /* HeartManager.swift */; };
+		9B1035FE2A0D609900649FA7 /* ScoreNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1035FD2A0D609900649FA7 /* ScoreNode.swift */; };
+		9B1036022A0D765900649FA7 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1036012A0D765900649FA7 /* ButtonNode.swift */; };
+		9B1036042A0D82F600649FA7 /* ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1036032A0D82F600649FA7 /* ScoreLabel.swift */; };
+		9B1036072A0E8B1000649FA7 /* CuriosityLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1036062A0E8B1000649FA7 /* CuriosityLabel.swift */; };
+		9B10360C2A0EB3E800649FA7 /* clockTickFinal.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B10360B2A0EB3E800649FA7 /* clockTickFinal.wav */; };
+		9B10360E2A0EB77E00649FA7 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B10360D2A0EB77E00649FA7 /* explosion.wav */; };
+		9B1036102A0EBD0000649FA7 /* erasing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B10360F2A0EBD0000649FA7 /* erasing.wav */; };
+		9B1036122A0EBE2A00649FA7 /* thump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1036112A0EBE2A00649FA7 /* thump.mp3 */; };
+		9B1036142A0EC04700649FA7 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1036132A0EC04700649FA7 /* Vibration.swift */; };
+		9B1036162A0EDA6600649FA7 /* Launching.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1036152A0EDA6600649FA7 /* Launching.storyboard */; };
+		9B1036182A12A15C00649FA7 /* soundtrack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B1036172A12A15C00649FA7 /* soundtrack.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +52,40 @@
 		9B1035B029F9929000649FA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B1035B229F9929100649FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B1035B529F9929100649FA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B1035BD29F996FF00649FA7 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		9B1035C029F999B400649FA7 /* SKButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKButtonNode.swift; sourceTree = "<group>"; };
+		9B1035C229F99C6800649FA7 /* TransitionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionScene.swift; sourceTree = "<group>"; };
+		9B1035C729FAEC2600649FA7 /* LooseScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooseScene.swift; sourceTree = "<group>"; };
+		9B1035CC2A01893000649FA7 /* CGPointExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		9B1035D22A02D23100649FA7 /* ElectronsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronsScene.swift; sourceTree = "<group>"; };
+		9B1035D42A02D26C00649FA7 /* ProtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtonNode.swift; sourceTree = "<group>"; };
+		9B1035D62A02D51500649FA7 /* ElectronNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronNode.swift; sourceTree = "<group>"; };
+		9B1035D92A02DB8500649FA7 /* PhysicsMasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsMasks.swift; sourceTree = "<group>"; };
+		9B1035DC2A04280500649FA7 /* MacrophageScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacrophageScene.swift; sourceTree = "<group>"; };
+		9B1035DE2A04281100649FA7 /* BodiesNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodiesNode.swift; sourceTree = "<group>"; };
+		9B1035E02A042F9C00649FA7 /* MacrophageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacrophageNode.swift; sourceTree = "<group>"; };
+		9B1035E22A044CD200649FA7 /* MinigameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameProtocol.swift; sourceTree = "<group>"; };
+		9B1035E52A0579D600649FA7 /* InertiaScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertiaScene.swift; sourceTree = "<group>"; };
+		9B1035E72A05845200649FA7 /* FallingBodyNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingBodyNode.swift; sourceTree = "<group>"; };
+		9B1035E92A058A2B00649FA7 /* FloorNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorNode.swift; sourceTree = "<group>"; };
+		9B1035EC2A074DE500649FA7 /* EquilibriumScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilibriumScene.swift; sourceTree = "<group>"; };
+		9B1035EF2A0971C200649FA7 /* ShakeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeScene.swift; sourceTree = "<group>"; };
+		9B1035F32A0A25AB00649FA7 /* ShakeAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimationExtension.swift; sourceTree = "<group>"; };
+		9B1035F52A0C6F4E00649FA7 /* PatrickHandSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PatrickHandSC-Regular.ttf"; path = "../../../Downloads/Patrick_Hand_SC/PatrickHandSC-Regular.ttf"; sourceTree = "<group>"; };
+		9B1035F72A0C701F00649FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9B1035F92A0D449C00649FA7 /* HeartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartCell.swift; sourceTree = "<group>"; };
+		9B1035FB2A0D5B1100649FA7 /* HeartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartManager.swift; sourceTree = "<group>"; };
+		9B1035FD2A0D609900649FA7 /* ScoreNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreNode.swift; sourceTree = "<group>"; };
+		9B1036012A0D765900649FA7 /* ButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		9B1036032A0D82F600649FA7 /* ScoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreLabel.swift; sourceTree = "<group>"; };
+		9B1036062A0E8B1000649FA7 /* CuriosityLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriosityLabel.swift; sourceTree = "<group>"; };
+		9B10360B2A0EB3E800649FA7 /* clockTickFinal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clockTickFinal.wav; path = ../../../../Downloads/clockTickFinal.wav; sourceTree = "<group>"; };
+		9B10360D2A0EB77E00649FA7 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion.wav; path = ../../../../Downloads/explosion.wav; sourceTree = "<group>"; };
+		9B10360F2A0EBD0000649FA7 /* erasing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = erasing.wav; path = ../../../../Downloads/erasing.wav; sourceTree = "<group>"; };
+		9B1036112A0EBE2A00649FA7 /* thump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = thump.mp3; path = ../../../../Downloads/thump.mp3; sourceTree = "<group>"; };
+		9B1036132A0EC04700649FA7 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		9B1036152A0EDA6600649FA7 /* Launching.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launching.storyboard; sourceTree = "<group>"; };
+		9B1036172A12A15C00649FA7 /* soundtrack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = soundtrack.wav; path = ../../../../Downloads/soundtrack.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +118,18 @@
 		9B1035AD29F9929000649FA7 /* ScienceGame */ = {
 			isa = PBXGroup;
 			children = (
+				9B1036082A0EB26A00649FA7 /* Sounds */,
+				9B1035F72A0C701F00649FA7 /* Info.plist */,
+				9B1035F52A0C6F4E00649FA7 /* PatrickHandSC-Regular.ttf */,
+				9B1035D82A02DB7100649FA7 /* Utils */,
+				9B1035CB2A01891700649FA7 /* Extensions */,
+				9B1035BF29F9993400649FA7 /* Nodes */,
+				9B1035BC29F996E300649FA7 /* Scenes */,
 				9B1035AE29F9929000649FA7 /* ScienceGameApp.swift */,
 				9B1035B029F9929000649FA7 /* ContentView.swift */,
 				9B1035B229F9929100649FA7 /* Assets.xcassets */,
 				9B1035B429F9929100649FA7 /* Preview Content */,
+				9B1036152A0EDA6600649FA7 /* Launching.storyboard */,
 			);
 			path = ScienceGame;
 			sourceTree = "<group>";
@@ -65,6 +140,144 @@
 				9B1035B529F9929100649FA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B1035BC29F996E300649FA7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9B1036052A0D88F800649FA7 /* LooseScene */,
+				9B1035FF2A0D763500649FA7 /* StartScene */,
+				9B1035F82A0D448700649FA7 /* TransitionScene */,
+				9B1035C429F9A33000649FA7 /* MinigameScenes */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9B1035BF29F9993400649FA7 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035C029F999B400649FA7 /* SKButtonNode.swift */,
+				9B1036012A0D765900649FA7 /* ButtonNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		9B1035C429F9A33000649FA7 /* MinigameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035EE2A0971B400649FA7 /* Shake */,
+				9B1035EB2A074DD300649FA7 /* Equilibrium */,
+				9B1035E42A0579A900649FA7 /* Inertia */,
+				9B1035DB2A0427F100649FA7 /* Macrophages */,
+				9B1035D12A02D1F500649FA7 /* Electrons */,
+			);
+			path = MinigameScenes;
+			sourceTree = "<group>";
+		};
+		9B1035CB2A01891700649FA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035CC2A01893000649FA7 /* CGPointExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9B1035D12A02D1F500649FA7 /* Electrons */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035D22A02D23100649FA7 /* ElectronsScene.swift */,
+				9B1035D42A02D26C00649FA7 /* ProtonNode.swift */,
+				9B1035D62A02D51500649FA7 /* ElectronNode.swift */,
+			);
+			path = Electrons;
+			sourceTree = "<group>";
+		};
+		9B1035D82A02DB7100649FA7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035D92A02DB8500649FA7 /* PhysicsMasks.swift */,
+				9B1035E22A044CD200649FA7 /* MinigameProtocol.swift */,
+				9B1035F32A0A25AB00649FA7 /* ShakeAnimationExtension.swift */,
+				9B1036132A0EC04700649FA7 /* Vibration.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9B1035DB2A0427F100649FA7 /* Macrophages */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035DC2A04280500649FA7 /* MacrophageScene.swift */,
+				9B1035DE2A04281100649FA7 /* BodiesNode.swift */,
+				9B1035E02A042F9C00649FA7 /* MacrophageNode.swift */,
+			);
+			path = Macrophages;
+			sourceTree = "<group>";
+		};
+		9B1035E42A0579A900649FA7 /* Inertia */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035E52A0579D600649FA7 /* InertiaScene.swift */,
+				9B1035E72A05845200649FA7 /* FallingBodyNode.swift */,
+				9B1035E92A058A2B00649FA7 /* FloorNode.swift */,
+			);
+			path = Inertia;
+			sourceTree = "<group>";
+		};
+		9B1035EB2A074DD300649FA7 /* Equilibrium */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035EC2A074DE500649FA7 /* EquilibriumScene.swift */,
+			);
+			path = Equilibrium;
+			sourceTree = "<group>";
+		};
+		9B1035EE2A0971B400649FA7 /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035EF2A0971C200649FA7 /* ShakeScene.swift */,
+			);
+			path = Shake;
+			sourceTree = "<group>";
+		};
+		9B1035F82A0D448700649FA7 /* TransitionScene */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035C229F99C6800649FA7 /* TransitionScene.swift */,
+				9B1035F92A0D449C00649FA7 /* HeartCell.swift */,
+				9B1035FB2A0D5B1100649FA7 /* HeartManager.swift */,
+				9B1035FD2A0D609900649FA7 /* ScoreNode.swift */,
+			);
+			path = TransitionScene;
+			sourceTree = "<group>";
+		};
+		9B1035FF2A0D763500649FA7 /* StartScene */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035BD29F996FF00649FA7 /* StartScene.swift */,
+				9B1036032A0D82F600649FA7 /* ScoreLabel.swift */,
+			);
+			path = StartScene;
+			sourceTree = "<group>";
+		};
+		9B1036052A0D88F800649FA7 /* LooseScene */ = {
+			isa = PBXGroup;
+			children = (
+				9B1035C729FAEC2600649FA7 /* LooseScene.swift */,
+				9B1036062A0E8B1000649FA7 /* CuriosityLabel.swift */,
+			);
+			path = LooseScene;
+			sourceTree = "<group>";
+		};
+		9B1036082A0EB26A00649FA7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9B10360B2A0EB3E800649FA7 /* clockTickFinal.wav */,
+				9B10360F2A0EBD0000649FA7 /* erasing.wav */,
+				9B1036172A12A15C00649FA7 /* soundtrack.wav */,
+				9B1036112A0EBE2A00649FA7 /* thump.mp3 */,
+				9B10360D2A0EB77E00649FA7 /* explosion.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +338,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B10360E2A0EB77E00649FA7 /* explosion.wav in Resources */,
 				9B1035B629F9929100649FA7 /* Preview Assets.xcassets in Resources */,
+				9B1036182A12A15C00649FA7 /* soundtrack.wav in Resources */,
+				9B1036102A0EBD0000649FA7 /* erasing.wav in Resources */,
+				9B1036122A0EBE2A00649FA7 /* thump.mp3 in Resources */,
+				9B1036162A0EDA6600649FA7 /* Launching.storyboard in Resources */,
 				9B1035B329F9929100649FA7 /* Assets.xcassets in Resources */,
+				9B1035F62A0C6F6000649FA7 /* PatrickHandSC-Regular.ttf in Resources */,
+				9B10360C2A0EB3E800649FA7 /* clockTickFinal.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +357,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1036142A0EC04700649FA7 /* Vibration.swift in Sources */,
+				9B1035F02A0971C200649FA7 /* ShakeScene.swift in Sources */,
 				9B1035B129F9929000649FA7 /* ContentView.swift in Sources */,
+				9B1035DF2A04281100649FA7 /* BodiesNode.swift in Sources */,
+				9B1035D32A02D23100649FA7 /* ElectronsScene.swift in Sources */,
+				9B1035DD2A04280500649FA7 /* MacrophageScene.swift in Sources */,
+				9B1036042A0D82F600649FA7 /* ScoreLabel.swift in Sources */,
+				9B1035C329F99C6800649FA7 /* TransitionScene.swift in Sources */,
+				9B1035FA2A0D449C00649FA7 /* HeartCell.swift in Sources */,
+				9B1035E62A0579D600649FA7 /* InertiaScene.swift in Sources */,
+				9B1035DA2A02DB8500649FA7 /* PhysicsMasks.swift in Sources */,
+				9B1035E12A042F9C00649FA7 /* MacrophageNode.swift in Sources */,
+				9B1035D72A02D51500649FA7 /* ElectronNode.swift in Sources */,
+				9B1035E82A05845200649FA7 /* FallingBodyNode.swift in Sources */,
+				9B1035C129F999B400649FA7 /* SKButtonNode.swift in Sources */,
+				9B1035C829FAEC2600649FA7 /* LooseScene.swift in Sources */,
+				9B1035E32A044CD200649FA7 /* MinigameProtocol.swift in Sources */,
+				9B1035FC2A0D5B1100649FA7 /* HeartManager.swift in Sources */,
+				9B1035BE29F996FF00649FA7 /* StartScene.swift in Sources */,
+				9B1036072A0E8B1000649FA7 /* CuriosityLabel.swift in Sources */,
+				9B1035EA2A058A2B00649FA7 /* FloorNode.swift in Sources */,
+				9B1035F42A0A25AB00649FA7 /* ShakeAnimationExtension.swift in Sources */,
+				9B1035ED2A074DE500649FA7 /* EquilibriumScene.swift in Sources */,
+				9B1035FE2A0D609900649FA7 /* ScoreNode.swift in Sources */,
 				9B1035AF29F9929000649FA7 /* ScienceGameApp.swift in Sources */,
+				9B1035CD2A01893000649FA7 /* CGPointExtension.swift in Sources */,
+				9B1035D52A02D26C00649FA7 /* ProtonNode.swift in Sources */,
+				9B1036022A0D765900649FA7 /* ButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,21 +516,28 @@
 				DEVELOPMENT_TEAM = VD27837RCK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScienceGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SciPark;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = Launching.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Testes.ScienceGame;
+				PRODUCT_BUNDLE_IDENTIFIER = ramon.scipark.alone.project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,21 +552,28 @@
 				DEVELOPMENT_TEAM = VD27837RCK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScienceGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SciPark;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = Launching.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Testes.ScienceGame;
+				PRODUCT_BUNDLE_IDENTIFIER = ramon.scipark.alone.project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
